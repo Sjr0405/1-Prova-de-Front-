@@ -1,0 +1,110 @@
+*{
+    background:#13141A;
+    font-family: "Montserrat";
+    color: aliceblue;
+}
+
+.nav-link.active{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+.bs-link-color{
+    color: #ffffff;
+    text-decoration: #ffffff;
+}
+
+.card1{
+    background: #17C69B;
+    color: #ffffff;
+}
+#card-col{
+    background: #17C69B;
+    color: #ffffff;
+    
+}
+.card-img{
+    background: #17C69B;
+    color: #ffffff;
+    
+}
+
+#categorie-btn-btn-primary{
+    margin-right: 20px;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo span {
+    display: block;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+main {
+    padding: 20px;
+}
+
+.features {
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    background-color: #1e1e1e;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #333333;
+}
+
+.tab-button.active {
+    background-color: #333333;
+}
+
+.tab-content {
+    display: none;
+    background-color: #00b894;
+    padding: 20px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.tab-content.active {
+    display: block;
+    opacity: 1;
+}
+
+.about {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+}
+
